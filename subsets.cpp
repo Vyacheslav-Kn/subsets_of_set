@@ -96,16 +96,6 @@ string** find_elements_of_set(char* buf, int num, int &count_el_in_set) {
 		}
 	}	index[count_el_in_set] = num; count_el_in_set++;
 
-	/*static int l = 1;
-	for (int i = 0; i < count_el_in_set; i++) {
-		for (l; l < index[i]; l++) {
-			cout << buf[l];
-		} l++;
-		cout << " ";
-	}
-	for (l; l < num-1; l++) {
-		cout << buf[l];
-	}*/
 
 	string buf1 = (const char*)buf; 
 	
